@@ -1,9 +1,8 @@
 const element = document.getElementById('level');
 
 let count = 1;
-let parent = none;
 
-while (element != <html>){
+while (element != document.documentElement){
 	let parent1 = element.parentElement;
 	count++;
 	element = parent1;
